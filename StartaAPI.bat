@@ -1,0 +1,1 @@
+dotnet watch run --urls "https://*:5001;http://*:5000"

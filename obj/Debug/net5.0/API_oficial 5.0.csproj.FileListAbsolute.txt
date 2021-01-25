@@ -1,0 +1,250 @@
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\appsettings.Development.json
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\appsettings.json
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\API_oficial 5.0.exe
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\API_oficial 5.0.deps.json
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.json
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.dev.json
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.csprojAssemblyReference.cache
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfoInputs.cache
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfo.cs
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.csproj.CoreCompileInputs.cache
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cs
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cache
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.Manifest.cache
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.xml
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\scopedcss\bundle\API_oficial 5.0.styles.css
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.RazorTargetAssemblyInfo.cache
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.csproj.CopyComplete
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\API_oficial 5.0\obj\Debug\net5.0\API_oficial 5.0.genruntimeconfig.cache
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\AutoMapper.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Humanizer.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Npgsql.dll
+D:\repositorio\Barber\API_oficial 5.0\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\appsettings.Development.json
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\appsettings.json
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\API_oficial 5.0.exe
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\API_oficial 5.0.deps.json
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.json
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.dev.json
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\AutoMapper.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Humanizer.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Npgsql.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repositorio\Barber\Digital Ocean\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.csprojAssemblyReference.cache
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfoInputs.cache
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfo.cs
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.csproj.CoreCompileInputs.cache
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cs
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cache
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.Manifest.cache
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.xml
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\scopedcss\bundle\API_oficial 5.0.styles.css
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.RazorTargetAssemblyInfo.cache
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.csproj.CopyComplete
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\Digital Ocean\obj\Debug\net5.0\API_oficial 5.0.genruntimeconfig.cache
+C:\API\bin\Debug\net5.0\appsettings.Development.json
+C:\API\bin\Debug\net5.0\appsettings.json
+C:\API\bin\Debug\net5.0\API_oficial 5.0.exe
+C:\API\bin\Debug\net5.0\API_oficial 5.0.deps.json
+C:\API\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.json
+C:\API\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.dev.json
+C:\API\bin\Debug\net5.0\API_oficial 5.0.dll
+C:\API\bin\Debug\net5.0\ref\API_oficial 5.0.dll
+C:\API\bin\Debug\net5.0\API_oficial 5.0.pdb
+C:\API\bin\Debug\net5.0\AutoMapper.dll
+C:\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\API\bin\Debug\net5.0\Humanizer.dll
+C:\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\API\bin\Debug\net5.0\Npgsql.dll
+C:\API\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\API\obj\Debug\net5.0\API_oficial 5.0.csprojAssemblyReference.cache
+C:\API\obj\Debug\net5.0\API_oficial 5.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\API\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfoInputs.cache
+C:\API\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfo.cs
+C:\API\obj\Debug\net5.0\API_oficial 5.0.csproj.CoreCompileInputs.cache
+C:\API\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cs
+C:\API\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cache
+C:\API\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.Manifest.cache
+C:\API\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.xml
+C:\API\obj\Debug\net5.0\scopedcss\bundle\API_oficial 5.0.styles.css
+C:\API\obj\Debug\net5.0\API_oficial 5.0.RazorTargetAssemblyInfo.cache
+C:\API\obj\Debug\net5.0\API_oficial 5.0.csproj.CopyComplete
+C:\API\obj\Debug\net5.0\API_oficial 5.0.dll
+C:\API\obj\Debug\net5.0\ref\API_oficial 5.0.dll
+C:\API\obj\Debug\net5.0\API_oficial 5.0.pdb
+C:\API\obj\Debug\net5.0\API_oficial 5.0.genruntimeconfig.cache
+D:\repositorio\Barber\API\bin\Debug\net5.0\appsettings.Development.json
+D:\repositorio\Barber\API\bin\Debug\net5.0\appsettings.json
+D:\repositorio\Barber\API\bin\Debug\net5.0\API_oficial 5.0.exe
+D:\repositorio\Barber\API\bin\Debug\net5.0\API_oficial 5.0.deps.json
+D:\repositorio\Barber\API\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.json
+D:\repositorio\Barber\API\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.dev.json
+D:\repositorio\Barber\API\bin\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\API\bin\Debug\net5.0\AutoMapper.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Humanizer.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Npgsql.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repositorio\Barber\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.csprojAssemblyReference.cache
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfoInputs.cache
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfo.cs
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.csproj.CoreCompileInputs.cache
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cs
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cache
+D:\repositorio\Barber\API\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.Manifest.cache
+D:\repositorio\Barber\API\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.xml
+D:\repositorio\Barber\API\obj\Debug\net5.0\scopedcss\bundle\API_oficial 5.0.styles.css
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.RazorTargetAssemblyInfo.cache
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.csproj.CopyComplete
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\API\obj\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\API\obj\Debug\net5.0\API_oficial 5.0.genruntimeconfig.cache
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\appsettings.Development.json
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\appsettings.json
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\API_oficial 5.0.exe
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\API_oficial 5.0.deps.json
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.json
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\API_oficial 5.0.runtimeconfig.dev.json
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\AutoMapper.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Humanizer.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Npgsql.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repositorio\Barber\API Nuvem\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.csprojAssemblyReference.cache
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfoInputs.cache
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.AssemblyInfo.cs
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.csproj.CoreCompileInputs.cache
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cs
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.MvcApplicationPartsAssemblyInfo.cache
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.Manifest.cache
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\staticwebassets\API_oficial 5.0.StaticWebAssets.xml
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\scopedcss\bundle\API_oficial 5.0.styles.css
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.RazorTargetAssemblyInfo.cache
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.csproj.CopyComplete
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.dll
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\ref\API_oficial 5.0.dll
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.pdb
+D:\repositorio\Barber\API Nuvem\obj\Debug\net5.0\API_oficial 5.0.genruntimeconfig.cache
