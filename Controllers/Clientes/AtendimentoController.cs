@@ -140,7 +140,7 @@ namespace Api_Empresa.Controllers.Clientes
                                                 .FromSqlRaw("Select p.\"Id\", p.\"Nome\", sum(i.\"Valor\") as Valor" +
                                                             " from \"Atendimento\" a" +
                                                             " join \"ItemFormaPagamento\" i on (a.\"Id\" = i.\"AtendimentoId\")" +
-                                                            " join \"Profissional\" p on (a.\"ProfissionalId\" = p.\"Id\") group by p.\"Id\", p.\"Nome\";")
+                                                            " join \"Profissional\" p on (a.\"ProfissionalId\" = p.\"Id\") where Date(i.\"CreatedAt\") = current_date group by p.\"Id\", p.\"Nome\";")
 												.ToListAsync();
             if (profissional != null)
             {
@@ -159,7 +159,7 @@ namespace Api_Empresa.Controllers.Clientes
             var formaPagamento = await _database.AtendimentoGeralFormaPagamento
                                         .FromSqlRaw("Select f.\"Id\", f.\"Titulo\", f.\"Descricao\", sum(i.\"Valor\") as \"Total\" from \"FormaPagamento\" as f " +
                                                     "join \"ItemFormaPagamento\" as i on (i.\"FormaPagamentoId\" = f.\"Id\") " +
-                                                    "Where i.\"Ativo\" = 'S' Group by f.\"Id\", f.\"Titulo\", f.\"Descricao\" ")
+                                                    "Where i.\"Ativo\" = 'S' and Date(i.\"CreatedAt\") = current_date Group by f.\"Id\", f.\"Titulo\", f.\"Descricao\" ")
                                         .OrderByDescending(a => a.Id)
                                         .ToListAsync();
             

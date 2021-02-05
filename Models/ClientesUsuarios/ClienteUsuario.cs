@@ -2,7 +2,7 @@
 
 namespace API.Models.ClientesUsuarios
 {
-    public class ClienteUsuario
+    public class ClienteUsuario : PadraoSistema
     {
         [Key]
         public int Id { get; set; }
@@ -10,6 +10,7 @@ namespace API.Models.ClientesUsuarios
         public string Login { get; set; }
         public char Ativo { get; set; }
         public char PrimeiroAcesso { get; set; }
+        public string Root { get; set; }
         public byte[] SenhaDificuldade { get; set; }
         public byte[] SenhaHash { get; set; }
     }

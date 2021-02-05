@@ -29,8 +29,9 @@ namespace API.Brokers
         public DbSet<ItemAtendimento> ItemAtendimento { get; set; }
         public DbSet<ItemFormaPagamento> ItemFormaPagamento { get; set; }
         public DbSet<SituacaoAtendimento> SituacaoAtendimento { get; set; }
+        public DbSet<Caixa> Caixa { get; set; }
 
-         public ClienteDatabase(DbContextOptions<ClienteDatabase> options, IHttpContextAccessor httpContextAccessor) : base(options)
+        public ClienteDatabase(DbContextOptions<ClienteDatabase> options, IHttpContextAccessor httpContextAccessor) : base(options)
         {
             if (httpContextAccessor.HttpContext != null)
             {

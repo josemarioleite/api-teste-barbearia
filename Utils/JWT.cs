@@ -43,7 +43,7 @@ namespace API.Utils
                     new Claim("Id", usuario.Id.ToString()),
                     new Claim("Usuario", usuario.Nome),
                     new Claim("Login", usuario.Login),
-                    new Claim("Status", "true")
+                    new Claim("Root", usuario.Root)
                 }),
                 Expires = DateTime.UtcNow.AddHours(8),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)

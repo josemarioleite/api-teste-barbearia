@@ -9,6 +9,7 @@ using API.Models.Servicos;
 using API.Models.ClientesEmpresas;
 using API.Models.ItensAtendimento;
 using API.Models.Situacao;
+using API.Models.ClientesUsuarios;
 
 namespace Utils
 {
@@ -17,6 +18,7 @@ namespace Utils
         public AutoMapping()
         {
             CreateMap<UsuarioCadastro, Usuario>();
+            CreateMap<ClienteUsuarioCadastro, ClienteUsuario>(); 
             CreateMap<EmpresaCadastro, Empresa>();
             CreateMap<ClienteCadastrar, Cliente>();
             CreateMap<ProdutoCadastrar, Produto>();
