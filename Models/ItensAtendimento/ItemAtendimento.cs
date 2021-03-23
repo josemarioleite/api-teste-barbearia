@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using API.Models.Atendimentos;
 
 namespace API.Models.ItensAtendimento
 {
@@ -13,5 +12,6 @@ namespace API.Models.ItensAtendimento
         public double ValorUnitario { get; set; }
         public double ValorTotal { get; set; }
         public int AtendimentoId { get; set; }
+        public int ProdutoServicoId { get; set; }
     }
 }

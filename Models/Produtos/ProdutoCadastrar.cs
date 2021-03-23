@@ -8,5 +8,7 @@ namespace API.Models.Produtos
         public string Nome { get; set; }
         [Required(ErrorMessage = "É obrigatório colocar o Valor do produto")]
         public double Valor { get; set; }
+        public string PorcentagemComissao { get; set; } = "C";
+        public double ValorPorcentagemComissao { get; set; } = 0;
     }
 }

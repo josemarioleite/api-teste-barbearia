@@ -9,9 +9,9 @@ namespace API.Models.ClientesUsuarios
         public string Nome { get; set; }
         [Required(ErrorMessage = "O Campo 'Login' é obrigatório")]
         public string Login { get; set; }
-        public char Ativo { get; set; } = 'S';
+        public string Ativo { get; set; } = "S";
         public string Root { get; set; } = "N";
-        public char PrimeiroAcesso { get; set; } = 'S';
+        public string PrimeiroAcesso { get; set; } = "S";
         [Required(ErrorMessage = "O Campo 'Senha' é obrigatório")]
         public string Senha { get; set; }
         [JsonIgnore]

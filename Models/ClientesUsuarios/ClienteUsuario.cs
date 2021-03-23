@@ -8,8 +8,8 @@ namespace API.Models.ClientesUsuarios
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Login { get; set; }
-        public char Ativo { get; set; }
-        public char PrimeiroAcesso { get; set; }
+        public string Ativo { get; set; }
+        public string PrimeiroAcesso { get; set; }
         public string Root { get; set; }
         public byte[] SenhaDificuldade { get; set; }
         public byte[] SenhaHash { get; set; }

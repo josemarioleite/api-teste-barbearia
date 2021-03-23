@@ -12,5 +12,6 @@ namespace API.Models.FormaPagamentos
         public string Descricao { get; set; }
         public double Valor { get; set; }
         public string Ativo { get; set; }
+        //public int PeriodoCaixaId { get; set; }
     }
 }

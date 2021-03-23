@@ -83,6 +83,36 @@ namespace API.Controllers.Clientes
                     msg = "Por favor, preencha todos os campos"
                 });
             }
-        }        
+        }
+
+        [HttpPatch("senha")]
+        public async Task<ActionResult> AlteraSenhaUsuario(ClienteUsuarioAlteraSenha clienteAlteraSenha)
+        {
+            ClienteUsuario usuario = await _database.Usuario.FindAsync(clienteAlteraSenha.Id);
+            if (usuario == null) {
+                return NotFound();
+            }
+
+            Hash hash = new Hash();
+            hash.HasheiaSenha(clienteAlteraSenha);
+            usuario.SenhaDificuldade = clienteAlteraSenha.SenhaDificuldade;
+            usuario.SenhaHash = clienteAlteraSenha.SenhaHash;
+            usuario.PrimeiroAcesso = clienteAlteraSenha.PrimeiroAcesso;
+            _database.Entry(usuario).State = EntityState.Modified;
+
+            try {
+                await _database.SaveChangesAsync();
+                return Ok(new {
+                    status = true,
+                    msg = "Senha alterada com sucesso!"
+                });
+            } catch (Exception e) {
+                return BadRequest(new {
+                    status = false,
+                    msg = "Não foi possível alterar senha",
+                    erro = e.Data
+                });
+            }
+        }
     }
 }

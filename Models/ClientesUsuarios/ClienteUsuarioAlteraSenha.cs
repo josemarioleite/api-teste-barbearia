@@ -9,7 +9,7 @@ namespace API.Models.ClientesUsuarios
         public int Id { get; set; }
         [Required(ErrorMessage = "O campo 'Senha' é obrigatório")]
         public string Senha { get; set; }
-        public char PrimeiroAcesso { get; set; }
+        public string PrimeiroAcesso { get; set; }
         [JsonIgnore]
         public byte[] SenhaDificuldade { get; set; }
         [JsonIgnore]

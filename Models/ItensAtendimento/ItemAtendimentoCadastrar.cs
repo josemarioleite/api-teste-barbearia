@@ -16,5 +16,7 @@ namespace API.Models.ItensAtendimento
         public double ValorTotal { get; set; } = 0;
         [Required(ErrorMessage = "É necessário informar a qual Atendimento o item pertence")]
         public int AtendimentoId { get; set; }
+        [Required(ErrorMessage = "É necessário informar o ID do Produto/Serviço")]
+        public int ProdutoServicoId { get; set; }
     }
 }

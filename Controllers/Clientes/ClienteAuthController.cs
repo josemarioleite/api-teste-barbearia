@@ -58,7 +58,9 @@ namespace API.Controllers.Clientes
                             token = token,
                             idUsuario = usuario.Id,
                             primeiroAcesso = usuario.PrimeiroAcesso,
-                            nome = usuario.Nome
+                            nome = usuario.Nome,
+                            root = usuario.Root,
+                            ativo = usuario.Ativo
                         });
                     }
                     else

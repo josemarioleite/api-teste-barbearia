@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using API.Models.Servicos;
 using API.Models.Situacao;
 using API.Models.Selects;
+using API.Models.FluxoCaixa;
 
 namespace API.Brokers
 {
@@ -29,7 +30,9 @@ namespace API.Brokers
         public DbSet<ItemAtendimento> ItemAtendimento { get; set; }
         public DbSet<ItemFormaPagamento> ItemFormaPagamento { get; set; }
         public DbSet<SituacaoAtendimento> SituacaoAtendimento { get; set; }
+        public DbSet<CaixaOperador> CaixaOperador { get; set; }
         public DbSet<Caixa> Caixa { get; set; }
+        public DbSet<PeriodoCaixa> PeriodoCaixa { get; set; }
 
         public ClienteDatabase(DbContextOptions<ClienteDatabase> options, IHttpContextAccessor httpContextAccessor) : base(options)
         {

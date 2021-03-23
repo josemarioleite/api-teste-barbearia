@@ -10,6 +10,7 @@ using API.Models.ClientesEmpresas;
 using API.Models.ItensAtendimento;
 using API.Models.Situacao;
 using API.Models.ClientesUsuarios;
+using API.Models.FluxoCaixa;
 
 namespace Utils
 {
@@ -29,6 +30,8 @@ namespace Utils
             CreateMap<ItemFormaPagamentoCadastrar, ItemFormaPagamento>();
             CreateMap<ItemAtendimentoCadastrar, ItemAtendimento>();
             CreateMap<SituacaoAtendimentoCadastrar, SituacaoAtendimento>();
+            CreateMap<CaixaCadastro, Caixa>();
+            CreateMap<PeriodoCaixaCadastro, PeriodoCaixa>();
         }
     }
 }

@@ -137,11 +137,12 @@ namespace Api_Empresa.Controllers.Clientes
         public async Task<ActionResult> ObtemGeralAtendimentoPorProfissional() 
         {
             var profissional = await _database.AtendimentoGeral
-                                                .FromSqlRaw("Select p.\"Id\", p.\"Nome\", sum(i.\"Valor\") as Valor" +
-                                                            " from \"Atendimento\" a" +
-                                                            " join \"ItemFormaPagamento\" i on (a.\"Id\" = i.\"AtendimentoId\")" +
-                                                            " join \"Profissional\" p on (a.\"ProfissionalId\" = p.\"Id\") where Date(i.\"CreatedAt\") = current_date group by p.\"Id\", p.\"Nome\";")
-												.ToListAsync();
+                            .FromSqlRaw("Select p.\"Id\", p.\"Nome\", sum(i.\"Valor\") as Valor" +
+                                        " from \"Atendimento\" a" +
+                                        " join \"ItemFormaPagamento\" i on (a.\"Id\" = i.\"AtendimentoId\")" +
+                                        " join \"Profissional\" p on (a.\"ProfissionalId\" = p.\"Id\") where Date(i.\"CreatedAt\") = current_date" +
+                                        " group by p.\"Id\", p.\"Nome\";")
+                            .ToListAsync();
             if (profissional != null)
             {
                 return Ok(profissional);
@@ -159,7 +160,7 @@ namespace Api_Empresa.Controllers.Clientes
             var formaPagamento = await _database.AtendimentoGeralFormaPagamento
                                         .FromSqlRaw("Select f.\"Id\", f.\"Titulo\", f.\"Descricao\", sum(i.\"Valor\") as \"Total\" from \"FormaPagamento\" as f " +
                                                     "join \"ItemFormaPagamento\" as i on (i.\"FormaPagamentoId\" = f.\"Id\") " +
-                                                    "Where i.\"Ativo\" = 'S' and Date(i.\"CreatedAt\") = current_date Group by f.\"Id\", f.\"Titulo\", f.\"Descricao\" ")
+                                                    "Where i.\"Ativo\" = 'S' Group by f.\"Id\", f.\"Titulo\", f.\"Descricao\" ") //and Date(i.\"CreatedAt\") = current_date 
                                         .OrderByDescending(a => a.Id)
                                         .ToListAsync();
             

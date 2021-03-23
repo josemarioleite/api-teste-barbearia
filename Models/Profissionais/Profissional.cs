@@ -11,9 +11,7 @@ namespace API.Models.Profissionais
         public DateTime DataNascimento { get; set; }
         public string TelefoneCelular { get; set; }
         public string CPF { get; set; }
-        public int Porcentagem { get; set; }
-		public string GeraPorcentagemProduto { get; set; }
-		public int? PorcentagemProduto { get; set; }
+        public double Porcentagem { get; set; }
         public string Ativo { get; set; }
     }
 }

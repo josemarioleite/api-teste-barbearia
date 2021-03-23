@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace API.Models.Selects
 {
-    public class Caixa
+    public class CaixaOperador
     {
         [Key]
         public int Id { get; set; }

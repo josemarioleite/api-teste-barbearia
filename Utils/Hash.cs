@@ -29,6 +29,17 @@ namespace Utils
             }
         }
 
+        public void HasheiaSenha(ClienteUsuarioAlteraSenha usuario)
+        {
+            if (usuario.Senha != null && !string.IsNullOrWhiteSpace(usuario.Senha))
+            {
+                using (var hmac = new System.Security.Cryptography.HMACSHA512()) {
+                    usuario.SenhaDificuldade = hmac.Key;
+                    usuario.SenhaHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(usuario.Senha));
+                }
+            }
+        }
+
         public bool VerificaSenhaHash(Usuario usuario, string senha)
         {
             if(senha != null && !string.IsNullOrWhiteSpace(senha))

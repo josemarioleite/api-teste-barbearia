@@ -9,5 +9,7 @@ namespace API.Models.Produtos
         public string Nome { get; set; }
         public double? Valor { get; set; }
         public string Ativo { get; set; } = "S";
+        public string PorcentagemComissao { get; set; }
+        public double ValorPorcentagemComissao { get; set; }
     }
 }

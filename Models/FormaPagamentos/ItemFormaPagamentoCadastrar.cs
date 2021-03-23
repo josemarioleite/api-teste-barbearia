@@ -13,5 +13,7 @@ namespace API.Models.FormaPagamentos
         [Required(ErrorMessage = "É necessário informar a Descrição")]
         public string Descricao { get; set; }
         public string Ativo { get; set; } = "S";
+        //[Required(ErrorMessage = "É necessário informar o Perído Caixa")]
+        //public int PeriodoCaixaId { get; set; }
     }
 }
