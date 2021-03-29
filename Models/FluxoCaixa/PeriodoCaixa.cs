@@ -15,5 +15,6 @@ namespace API.Models.FluxoCaixa
         public int UsuarioAberturaId { get; set; }
         public int UsuarioFechamentoId { get; set; }
         public int CaixaId { get; set; }
+        public string Observacao { get; set; }
     }
 }

@@ -5,6 +5,6 @@ namespace API.Models.FluxoCaixa
         public string Nome { get; set; }
         public string CaixaAberto { get; set; } = "N";
         public string Ativo { get; set; } = "S";
-		public string Observacao { get; set; }
+		public string Observacao { get; set; } = "S/ Observação";
     }
 }

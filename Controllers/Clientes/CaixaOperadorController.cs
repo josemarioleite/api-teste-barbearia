@@ -92,14 +92,14 @@ namespace API.Controllers.Clientes
             }
         }
 
-        [HttpPut("abertura/{id}")]
-        public async Task<ActionResult> AbreCaixa([FromRoute]int id, [FromBody]Caixa caixaOperador)
+        [HttpPut("aberturafechamento/{abreFecha}/{id}")]
+        public async Task<ActionResult> AbreCaixa([FromRoute]int id, [FromRoute]string abreFecha)
         {
             if (ModelState.IsValid)
             {
-                var caixa = await _database.Caixa.FirstOrDefaultAsync(c => c.Id == id);
+                Caixa caixa = await _database.Caixa.FirstOrDefaultAsync(c => c.Id == id);
 
-                if (id != caixaOperador.Id)
+                if (id != caixa.Id)
                 {
                     return NotFound(new {
                         status = false,
@@ -107,29 +107,52 @@ namespace API.Controllers.Clientes
                     });
                 }
 
-                if (await _database.Caixa.Where(c => c.CaixaAberto == caixaOperador.CaixaAberto && caixaOperador.Id == id).FirstOrDefaultAsync() != null)
+                if (id == caixa.Id && caixa.CaixaAberto == "S" && abreFecha == "A")
                 {
                     return BadRequest(new {
                        status = false,
-                       msg = $"Erro ao abrir caixa, o Caixa {caixaOperador.Nome} já está aberto" 
+                       msg = $"O Caixa {caixa.Nome} já está aberto" 
                     });
                 }
 
-                caixaOperador.UpdatedAt = DateTime.Now;
-                caixaOperador.UpdatedBy = await _jwt.RetornaIdUsuarioDoToken(HttpContext);
-                _database.Entry(caixaOperador).Property(p => p.Ativo).IsModified = false;
-                _database.Entry(caixaOperador).Property(p => p.CreatedAt).IsModified = false;
-                _database.Entry(caixaOperador).Property(p => p.CreatedBy).IsModified = false;
-                _database.Entry(caixaOperador).Property(p => p.DeletedAt).IsModified = false;
-                _database.Entry(caixaOperador).Property(p => p.DeletedBy).IsModified = false;
-                _database.Entry(caixaOperador).State = EntityState.Modified;
+                if (id == caixa.Id && caixa.CaixaAberto == "N" && abreFecha == "F")
+                {
+                    return BadRequest(new {
+                       status = false,
+                       msg = $"O Caixa {caixa.Nome} já está fechado" 
+                    });
+                }
+
+                if (abreFecha == "A") {
+                    caixa.CaixaAberto = "S";
+                } else {
+                    caixa.CaixaAberto = "N";
+                }
+                caixa.UpdatedAt = DateTime.Now;
+                caixa.UpdatedBy = await _jwt.RetornaIdUsuarioDoToken(HttpContext);
+                _database.Entry(caixa).State = EntityState.Modified;
+                _database.Entry(caixa).Property(p => p.Nome).IsModified = false;
+                _database.Entry(caixa).Property(p => p.Ativo).IsModified = false;
+                _database.Entry(caixa).Property(p => p.Observacao).IsModified = false;
+                _database.Entry(caixa).Property(p => p.CreatedAt).IsModified = false;
+                _database.Entry(caixa).Property(p => p.CreatedBy).IsModified = false;
+                _database.Entry(caixa).Property(p => p.DeletedAt).IsModified = false;
+                _database.Entry(caixa).Property(p => p.DeletedBy).IsModified = false;
 
                 try {
                     await _database.SaveChangesAsync();
-                    return Ok(new {
-                        status = true,
-                        msg = "Caixa foi aberto"
-                    });
+                    if (abreFecha == "A") {
+                        return Ok(new {
+                            status = true,
+                            msg = "Caixa foi aberto"
+                        });
+                    } else {
+                        return Ok(new {
+                            status = true,
+                            msg = "Caixa foi Fechado com sucesso"
+                        });
+                    }
+                    
                 } catch (System.Exception ex) {
                     return BadRequest(new {
                         status = false,
@@ -141,6 +164,101 @@ namespace API.Controllers.Clientes
                 return BadRequest(new {
                     status = false,
                     msg = "Preencha todos os campos válidos"
+                });
+            }
+        }
+
+        [HttpPut("alteracao/{id}")]
+        public async Task<ActionResult> AlteraCaixa([FromRoute]int id, [FromBody]Caixa caixaOperador)
+        {
+            if (ModelState.IsValid)
+            {                
+                if (id != caixaOperador.Id)
+                {
+                    return NotFound(new {
+                        status = false,
+                        msg = "Não foi encontrado nenhum caixa"
+                    });
+                }
+
+                if (await _database.Caixa.Where(c => c.Nome == caixaOperador.Nome && c.Observacao == caixaOperador.Observacao).FirstOrDefaultAsync() != null)
+                {
+                    return Ok(new {
+                       status = false,
+                       msg = "Não teve nenhuma alteração" 
+                    });
+                }
+
+                caixaOperador.UpdatedAt = DateTime.Now;
+                caixaOperador.UpdatedBy = await _jwt.RetornaIdUsuarioDoToken(HttpContext);
+                _database.Entry(caixaOperador).State = EntityState.Modified;
+                _database.Entry(caixaOperador).Property(p => p.CaixaAberto).IsModified = false;
+                _database.Entry(caixaOperador).Property(p => p.Ativo).IsModified = false;
+                _database.Entry(caixaOperador).Property(p => p.CreatedAt).IsModified = false;
+                _database.Entry(caixaOperador).Property(p => p.CreatedBy).IsModified = false;
+                _database.Entry(caixaOperador).Property(p => p.DeletedAt).IsModified = false;
+                _database.Entry(caixaOperador).Property(p => p.DeletedBy).IsModified = false;
+
+                try {
+                    await _database.SaveChangesAsync();
+                    return Ok(new {
+                        status = true,
+                        msg = "O caixa foi alterado com sucesso"
+                    });                  
+                } catch (System.Exception ex) {
+                    return BadRequest(new {
+                        status = false,
+                        msg = "Erro ao alterar caixa, verifique novamente mais tarde",
+                        erro = ex.Message
+                    });
+                }
+            } else {
+                return BadRequest(new {
+                    status = false,
+                    msg = "Preencha todos os campos válidos"
+                });
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DesativaCaixa(int id)
+        {
+            Caixa caixa = await _database.Caixa.FindAsync(id);
+            if (caixa == null)
+            {
+                return NotFound("Caixa não encontrado");
+            }
+
+            if (caixa.Ativo == "N")
+            {
+                return NotFound("Caixa já foi desativado");
+            }
+
+            caixa.Ativo = "N";
+            caixa.DeletedAt = DateTime.Now;
+            caixa.DeletedBy = await _jwt.RetornaIdUsuarioDoToken(HttpContext);
+
+            _database.Entry(caixa).State = EntityState.Modified;
+            _database.Entry(caixa).Property(p => p.CreatedAt).IsModified = false;
+            _database.Entry(caixa).Property(p => p.CreatedBy).IsModified = false;
+            _database.Entry(caixa).Property(p => p.UpdatedAt).IsModified = false;
+            _database.Entry(caixa).Property(p => p.UpdatedBy).IsModified = false;
+
+            try
+            {
+                await _database.SaveChangesAsync();
+                return Ok(new
+                {
+                    status = true,
+                    msg = $"O Caixa {caixa.Nome} foi desativado com sucesso"
+                });
+            } catch (Exception e)
+            {
+                return BadRequest(new
+                {
+                    status = false,
+                    msg = "Não foi possível fazer a exclusão, tente novamente mais tarde",
+                    erro = e.Message
                 });
             }
         }
