@@ -92,7 +92,7 @@ namespace API.Controllers.Clientes
             }
         }
 
-        [HttpPut("aberturafechamento/{abreFecha}/{id}")]
+        [HttpPut("aberturafechamento/{id}/{abreFecha}")]
         public async Task<ActionResult> AbreCaixa([FromRoute]int id, [FromRoute]string abreFecha)
         {
             if (ModelState.IsValid)

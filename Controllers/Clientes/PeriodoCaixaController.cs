@@ -89,5 +89,56 @@ namespace API.Controllers.Clientes
                 });
             }
         }
+
+        [HttpPut("fechamento/{caixaId}/{periodoId}")]
+        public async Task<ActionResult> AlterarPeriodoCaixa([FromRoute]int caixaId,[FromRoute]int periodoId, [FromBody]PeriodoCaixa periodoCaixa)
+        {
+            if (ModelState.IsValid)
+            {
+                if (caixaId != periodoCaixa.CaixaId)
+                {
+                    return NotFound(new {status = false, msg = "Erro, os caixas não conferem"});
+                }
+
+                if (periodoId != periodoCaixa.Id)
+                {
+                    return NotFound(new {status = false, msg = "Erro, períodos não conferem"});
+                }
+
+                if (await _database.PeriodoCaixa.Where(p => p.CaixaId == periodoCaixa.CaixaId && p.Id == periodoId && p.Status == "F").FirstOrDefaultAsync() != null)
+                {
+                    return BadRequest($"Erro ao fechar caixa, este Período já foi encerrado");
+                }
+
+                periodoCaixa.Status = "F";
+                periodoCaixa.DataFechamento = DateTime.Now;
+                periodoCaixa.UsuarioFechamentoId = await _jwt.RetornaIdUsuarioDoToken(HttpContext);
+                _database.Entry(periodoCaixa).State = EntityState.Modified;
+                _database.Entry(periodoCaixa).Property(p => p.CaixaId).IsModified = false;
+                _database.Entry(periodoCaixa).Property(p => p.UsuarioAberturaId).IsModified = false;
+                _database.Entry(periodoCaixa).Property(p => p.DataAbertura).IsModified = false;
+                _database.Entry(periodoCaixa).Property(p => p.ValorTroco).IsModified = false;
+
+                try
+                {
+                    await _database.SaveChangesAsync();
+                    return Ok(new {
+                        status = true,
+                        msg = "Período foi encerrado com sucesso"
+                    });
+                } catch (Exception e) {
+                    return BadRequest(new {
+                        msg = "Erro ao encerrar período, verifique novamente mais tarde", 
+                        status = false,
+                        erro = e.Message
+                    });
+                }
+            } else {
+                return BadRequest(new {
+                    status = false,
+                    msg = "Preencha todos os campos obrigatórios!"
+                });
+            }
+        }
     }
 }
