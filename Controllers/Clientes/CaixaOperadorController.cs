@@ -125,7 +125,7 @@ namespace API.Controllers.Clientes
 
                 if (abreFecha == "A") {
                     caixa.CaixaAberto = "S";
-                } else {
+                } else if (abreFecha == "F") {
                     caixa.CaixaAberto = "N";
                 }
                 caixa.UpdatedAt = DateTime.Now;

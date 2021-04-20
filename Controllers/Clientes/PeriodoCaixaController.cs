@@ -16,6 +16,7 @@ namespace API.Controllers.Clientes
     [Authorize]
     public class PeriodoCaixaController : ControllerBase
     {
+        private readonly CaixaOperadorController _caixaOperador;
         private readonly ClienteDatabase _database;
         private readonly IMapper _mapper;
         private readonly JWT _jwt;
@@ -45,6 +46,25 @@ namespace API.Controllers.Clientes
             }
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult> ObterPeriodoCaixa([FromRoute]int id)
+        {
+            var periodoCaixa = await _database.PeriodoCaixa
+                                    .AsNoTracking()
+                                    .Where(p => p.CaixaId == id && p.Status == "A")
+                                    .ToListAsync();
+            
+            if (periodoCaixa != null)
+            {
+                return Ok(periodoCaixa);
+            } else {
+                return Ok(new {
+                    status = false,
+                    msg = "Não existem Períodos em Aberto"
+                });
+            }
+        }
+
         [HttpPost]
         public async Task<ActionResult<PeriodoCaixa>> InserePeriodoCaixa([FromBody]PeriodoCaixaCadastro periodoCaixa)
         {
@@ -70,6 +90,8 @@ namespace API.Controllers.Clientes
                 {
                     await _database.SaveChangesAsync();
                     return Ok(new {
+                        periodoCaixaId = novoPeriodoCaixa.Id,
+                        caixaId = novoPeriodoCaixa.CaixaId,
                         status = true,
                         msg = "O Período do Caixa está aberto"
                     });

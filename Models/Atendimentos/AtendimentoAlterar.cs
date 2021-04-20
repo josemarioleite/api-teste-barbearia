@@ -11,5 +11,6 @@ namespace API.Models.Atendimentos
         public int ProfissionalId { get; set; }
         public int SituacaoId { get; set; }
         public string Ativo { get; set; }
+		public int PeriodoCaixaId { get; set; }
     }
 }

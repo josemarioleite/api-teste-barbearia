@@ -17,5 +17,6 @@ namespace API.Models.Atendimentos
         public int SituacaoId { get; set; }
         public SituacaoAtendimento Situacao { get; set; }
         public string Ativo { get; set; }
+		public int PeriodoCaixaId { get; set; }
     }
 }

@@ -13,6 +13,7 @@ namespace API.Models.FluxoCaixa
         public double ValorSaldo { get; set; }
         public double ValorSangria { get; set; }
 		public double ValorTotal { get; set; }
+        public double ValorPeriodo { get; set; }
         public int UsuarioAberturaId { get; set; }
         public int UsuarioFechamentoId { get; set; }
         public int CaixaId { get; set; }

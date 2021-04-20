@@ -16,6 +16,8 @@ namespace API.Models.FluxoCaixa
         public double ValorSangria { get; set; } = 0;
 		[Required(ErrorMessage = "É necessário informar o Valor Total")]
 		public double ValorTotal { get; set; } = 0;
+        [Required(ErrorMessage = "É necessário informat o Valor do Período")]
+        public double ValorPeriodo { get; set; } = 0;
         [Required(ErrorMessage = "É necessário incluir o usuário que abriu o caixa")]
         public int UsuarioAberturaId { get; set; }
         public int? UsuarioFechamentoId { get; set; }
